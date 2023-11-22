@@ -1,0 +1,39 @@
+{
+    "povo_comunidades_tradicionais": {
+        "indepit": {},
+        "visita_valongo": {
+            "title": "povo_comunidades_tradicionais: visita_valongo",
+            "short_description": "Total de pessoas que visitaram o Cais do Valongo em determinado mês.",
+            "long_description": "Total de pessoas que visitaram o Cais do Valongo em determinado mês. As visitas são feitas por turistas nacionais e internacionais, de todas as idades. O número de pessoas de cada visita é informado por diversas fontes, ou seja, guias turísticos etc.",
+            "update_frequency": "Mensal",
+            "temporal_coverage": "A partir de 2016",
+            "data_owner": "Assessoria para Povos e Comunidades Tradicionais da Secretaria Municipal de Meio Ambiente e Clima",
+            "publisher_name": "Leonardo Mattos",
+            "publisher_email": "leonardomattos.meioambiente.rio@gmail.com",
+            "tags": [
+                "SMAC"
+            ],
+            "categories": [
+                "61fddb0c6bc44f2488221ec9d92e9faf"
+            ],
+            "columns": [
+                {
+                    "name": "mes",
+                    "description": "Mês, no formato mm, em que o total de visitantes foi computado."
+                },
+                {
+                    "name": "ano",
+                    "description": "Ano relativo ao mês em que o total de visitantes foi computado."
+                },
+                {
+                    "name": "ano_mes",
+                    "description": "Mês, no formato mm/aaaa, em que o total de visitantes foi computado. Mesmo mês do atributo mes."
+                },
+                {
+                    "name": "valor_visitacao",
+                    "description": "Número de pessoas que visitaram o Cais do Valongo no mês."
+                }
+            ]
+        }
+    }
+}
