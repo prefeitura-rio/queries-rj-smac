@@ -1,5 +1,6 @@
 {
     "povo_comunidades_tradicionais": {
+        "indepit": {},
         "visita_valongo": {
             "title": "povo_comunidades_tradicionais: visita_valongo",
             "short_description": "Total de pessoas que visitaram o Cais do Valongo em determinado mês.",
@@ -33,7 +34,6 @@
                     "description": "Número de pessoas que visitaram o Cais do Valongo no mês."
                 }
             ]
-        },
-        "indepit": {}
+        }
     }
 }
