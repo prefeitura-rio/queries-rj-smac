@@ -50,4 +50,4 @@ SELECT
     CAST(Com_quantas_organiza____es_privadas_sem_fins_lucrativos_a_comunidade_celebra_parcerias_para_a_realiza____o_de_suas_atividades__ AS STRING) as parcerias_privadas_sem_fins_lucrativos,
     CAST(Com_quantas_organiza____es_privadas_com_fins_lucrativos_a_comunidade_celebra_parcerias_para_a_realiza____o_de_suas_atividades__ AS STRING) as parcerias_privadas_com_fins_lucrativos
 
-FROM `rj-smac.povo_comunidades_tradicionais_staging.indepit`
+FROM `rj-smac.indepit_staging.indepit`
