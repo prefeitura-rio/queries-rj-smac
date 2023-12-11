@@ -40,4 +40,6 @@ models:
   rj_smac:
     povo_comunidades_tradicionais:
           +materialized: table
-          +schema: povo_comunidades_tradicionais 
+          +schema: povo_comunidades_tradicionais
+    indepit:
+          +materialized: table
