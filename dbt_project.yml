@@ -41,6 +41,6 @@ models:
     povo_comunidades_tradicionais:
           +materialized: table
           +schema: povo_comunidades_tradicionais
-    indepit:
+    povo_comunidades_tradicionais_indepit:
           +materialized: table
-          +schema: indepit
+          +schema: povo_comunidades_tradicionais_indepit
