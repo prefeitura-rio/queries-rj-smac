@@ -25,8 +25,7 @@ SELECT
     CAST(Qual_o_percentual_aproximado_de_pessoas_de_toda_a_comunidade_que_recebem_benef__cios_sociais_do_governo_federal___Bolsa_Fam__lia__por_exemplo_ AS STRING)  as percentual_bolsa_familia,
     CAST(Qual_o_percentual_aproximado_de_pessoas_de_toda_a_comunidade_que_recebem_benef__cios_sociais_do_governo_municipal___Prato_Feito_Carioca__por_exemplo_ AS STRING) as percentual_prato_feito_carioca,				
     CAST(Qual_o_percentual_aproximado_de_pessoas_de_toda_a_comunidade_que_est__o_em_situa____o_de_inseguran__a_alimentar__ AS STRING) as percentual_inseguranca_alimentar,
-    CAST(Como_voc___considera_o_acesso_aos_servi__os_de_sa__de_p__blica_para_a_sua_comunidade___Cl__nicas_da_fam__lia__UPAs__hospitais__centros_de_vacina____o__dentre_outros_equipamentos__ AS STRING) as saude_publica,				
-    CAST(Quais_s__o_os_principais_problemas_de_sa__de_p__blica_enfrentados_pela_comunidade_ AS STRING) as principais_problemas,
+    CAST(Como_voc___considera_o_acesso_aos_servi__os_de_sa__de_p__blica_para_a_sua_comunidade___Cl__nicas_da_fam__lia__UPAs__hospitais__centros_de_vacina____o__dentre_outros_equipamentos__ AS STRING) as saude_publica,
     CAST(Como_voc___considera_o_acesso_aos_servi__os_de_educa____o_p__blica_para_a_sua_comunidade___Escolas_b__sicas__escolas_t__cnicas__universidades__ AS STRING) as educacao_publica,
     CAST(Como_voc___considera_o_acesso_aos_servi__os_de_cultura_para_a_sua_comunidade___teatros_p__blicos_e_privados__cinemas__espa__os_culturais_p__blicos_e_privados__dentre_outros__ AS STRING) as servicos_culturais, 				
     CAST(A_sua_comunidade_j___promoveu_a____es_culturais_ AS STRING) as atividades_culturais_comunidade,
@@ -54,6 +53,6 @@ SELECT
     CAST(Tamanho_da_comunidade AS STRING) as tamanho_comunidade,
     CAST(Bairro AS STRING) as bairro,
     CAST(Regi__o AS STRING) as regiao,
-    CAST(Tempo_que_voc___desenvolve_a_tradi____o__anos_) as tempo_tradicao
+    CAST(Tempo_que_voc___desenvolve_a_tradi____o__anos_ AS STRING) as tempo_tradicao
+    
 FROM `rj-smac.povo_comunidades_tradicionais_indepit_staging.indepit`
-
