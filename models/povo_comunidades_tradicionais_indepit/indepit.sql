@@ -51,6 +51,9 @@ SELECT
     CAST(Com_quantas_organiza____es_privadas_com_fins_lucrativos_a_comunidade_celebra_parcerias_para_a_realiza____o_de_suas_atividades__ AS STRING) as parcerias_privadas_com_fins_lucrativos,
     CAST(Qual_a_cor_ra__a_etnia_predominante_das_pessoas_que_integram_em_sua_comunidade__ AS STRING) as etnia_predominante,
     CAST(Com_quais_causas_sociais_a_sua_comunidade_mais_se_engaja__ AS STRING) as causas_sociais,
-    CAST(Tamanho_da_comunidade AS STRING) as tamanho_comunidade
+    CAST(Tamanho_da_comunidade AS STRING) as tamanho_comunidade,
+    CAST(Bairro AS STRING) as bairro,
+    CAST(Regi__o AS STRING) as regiao,
+    CAST(Tempo_que_voc___desenvolve_a_tradi____o__anos_) as tempo_tradicao
 
 FROM `rj-smac.povo_comunidades_tradicionais_indepit_staging.indepit`
