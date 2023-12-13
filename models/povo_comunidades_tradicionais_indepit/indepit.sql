@@ -55,5 +55,5 @@ SELECT
     CAST(Bairro AS STRING) as bairro,
     CAST(Regi__o AS STRING) as regiao,
     CAST(Tempo_que_voc___desenvolve_a_tradi____o__anos_) as tempo_tradicao
-
 FROM `rj-smac.povo_comunidades_tradicionais_indepit_staging.indepit`
+
