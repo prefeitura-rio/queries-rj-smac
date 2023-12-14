@@ -52,6 +52,6 @@ SELECT
     CAST(Com_quais_causas_sociais_a_sua_comunidade_mais_se_engaja__ AS STRING) as causas_sociais,
     CAST(Tamanho_da_comunidade AS STRING) as tamanho_comunidade,
     CAST(Tempo_que_voc___desenvolve_a_tradi____o__anos_ AS STRING) as tempo_tradicao,
-    CAST(Coordenadas AS STRING) as coordenadas
+    ST_GEOGPOINT(longitude, latitude) as geometry
 
 FROM `rj-smac.povo_comunidades_tradicionais_indepit_staging.indepit`
