@@ -51,8 +51,7 @@ SELECT
     CAST(Qual_a_cor_ra__a_etnia_predominante_das_pessoas_que_integram_em_sua_comunidade__ AS STRING) as etnia_predominante,
     CAST(Com_quais_causas_sociais_a_sua_comunidade_mais_se_engaja__ AS STRING) as causas_sociais,
     CAST(Tamanho_da_comunidade AS STRING) as tamanho_comunidade,
-    CAST(Bairro AS STRING) as bairro,
-    CAST(Regi__o AS STRING) as regiao,
-    CAST(Tempo_que_voc___desenvolve_a_tradi____o__anos_ AS STRING) as tempo_tradicao
-    
+    CAST(Tempo_que_voc___desenvolve_a_tradi____o__anos_ AS STRING) as tempo_tradicao,
+    CAST(Coordenadas AS STRING) as coordenadas
+
 FROM `rj-smac.povo_comunidades_tradicionais_indepit_staging.indepit`
